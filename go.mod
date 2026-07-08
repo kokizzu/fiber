@@ -1,6 +1,6 @@
 module github.com/gofiber/fiber/v2
 
-go 1.20
+go 1.25.0
 
 require (
 	github.com/goccy/go-json v0.10.0
@@ -12,7 +12,7 @@ require (
 	github.com/tinylib/msgp v1.1.6
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/fasthttp v1.44.0
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
+	golang.org/x/sys v0.46.0
 )
 
 require (
@@ -22,4 +22,5 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20220530130905-52f3993e8d6d // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
+	golang.org/x/crypto v0.53.0
 )
